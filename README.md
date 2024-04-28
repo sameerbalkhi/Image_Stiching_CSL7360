@@ -18,10 +18,10 @@ This repository contains scripts for comparing four different methods for image 
 
 ### Usage
 1. Run each script separately for the desired method:
-   - For SIFT: `python sift_stitching.py`
-   - For Harris Corner Detection: `python harris_stitching.py`
-   - For FAST: `python fast_stitching.py`
-   - For CNN models: `python cnn_stitching.py`
+   - For SIFT: `python SIFT_Based_Approach.py`
+   - For Harris Corner Detection: `python HarrisCorner.py`
+   - For FAST: `python FAST.py`
+   - For CNN models: `python CNN_Based_Approch.py`
 2. Each script will process the images using the specified method.
 3. After stitching, the scripts will compute the MSE and SSI for each method.
 4. The results will be displayed or saved as specified in the scripts.
